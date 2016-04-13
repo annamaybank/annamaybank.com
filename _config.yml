@@ -10,10 +10,12 @@ title: Anna Maybank
 email: anna@annamaybank.com
 description: > # this means to ignore newlines until "baseurl:"
   Just another set of static web pages
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://annamaybank.com" # the base hostname & protocol for your site
 twitter_username: annamaybank
 github_username:  annamaybank
+
+include: '_pages'
 
 # Build settings
 markdown: kramdown
