@@ -15,7 +15,5 @@ url: "http://annamaybank.com" # the base hostname & protocol for your site
 twitter_username: annamaybank
 github_username:  annamaybank
 
-include: '_pages'
-
 # Build settings
 markdown: kramdown
