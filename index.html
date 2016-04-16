@@ -4,10 +4,20 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Homepage heading</h1>
+<p><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></p>
 
 <p>A homepage will go here</p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<p>Notes</a></p>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<p>All notes</p>
 
 </div>
